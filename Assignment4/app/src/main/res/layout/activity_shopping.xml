@@ -7,6 +7,9 @@
     android:orientation="vertical"
     android:padding="10dp"
     tools:context=".ShoppingActivity">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
 
     <TextView
         android:id="@+id/txtWelcome"
@@ -15,4 +18,77 @@
         android:text="welcome"
         android:gravity="right"
         android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="Shop by categories"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+        <TableRow
+            android:layout_height="wrap_content">
+            <ImageView
+
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginRight="5dp"
+                app:srcCompat="@drawable/electrinics"
+                 />
+
+            <ImageView
+
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginLeft="5dp"
+                app:srcCompat="@drawable/clothing"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Electronics"
+
+                android:gravity="center"
+                android:textSize="18sp"/>
+            <TextView
+                android:text="Clothing"
+                android:gravity="center"
+                android:textSize="18sp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content">
+            <ImageView
+
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginRight="5dp"
+                app:srcCompat="@drawable/beauty"
+                />
+
+            <ImageView
+
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginLeft="5dp"
+                app:srcCompat="@drawable/food"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Beauty"
+
+                android:gravity="center"
+                android:textSize="18sp"/>
+            <TextView
+                android:text="Food"
+                android:gravity="center"
+                android:textSize="18sp"/>
+        </TableRow>
+
+    </TableLayout>
 </LinearLayout>

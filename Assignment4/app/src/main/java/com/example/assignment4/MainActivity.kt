@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
             {
 
                 var intent = Intent(this, ShoppingActivity::class.java)
-                intent.putExtra("username", username)
+                intent.putExtra("username", "Welcome, " + username)
 
 
                 startActivity(intent)
@@ -52,6 +52,13 @@ class MainActivity : AppCompatActivity() {
             {
                 Toast.makeText(this, "Login failed!", Toast.LENGTH_SHORT).show()
             }
+        }
+
+        txtVCreateAccount.setOnClickListener{
+            var intent = Intent(this, RegisterActivity::class.java)
+
+            startActivity(intent)
+
         }
     }
 }
