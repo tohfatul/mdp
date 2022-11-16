@@ -7,11 +7,11 @@ import layout.User
 class MainActivity : AppCompatActivity() {
 
     val users = mutableListOf(
-        User("kidus", "tekeste", "ktekeste@miu.com", "kiduspass"),
-        User("Bernard", "Arnault", "barnault@miu.com", "bernardpass"),
-        User("Bill", "Gates", "bgates@miu.com", "billpass"),
-        User("Larry", "Page", "lpage@miu.com", "larrypass"),
-        User("Warren", "Buffett", "wbuffett@miu.com", "warrenpass")
+        User("Milton", "Khandokar", "milton@gmail.com", "milton"),
+        User("Liton", "Talukdar", "liton@gmail.com", "liton"),
+        User("Titon", "Habildar", "titon@gmail.com", "titon"),
+        User("Zayed", "Bandar", "zayed@gmail.com", "zayed"),
+        User("Mahfuza", "Andor", "mahfuza@gmail.com", "mahfuza")
     )
 
 
