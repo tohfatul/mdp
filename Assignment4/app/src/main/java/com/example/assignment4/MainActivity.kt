@@ -1,5 +1,6 @@
 package com.example.assignment4
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -24,16 +25,32 @@ class MainActivity : AppCompatActivity() {
         btn_login.setOnClickListener{
             var username = txtEmail.text.toString()
             var passwordd = txtPassword.text.toString()
+            var  isSuccessLogin = false
+
             for (user in users)
             {
                 if(username == user.username && passwordd == user.password)
                 {
-                    Toast.makeText(this, "Great", Toast.LENGTH_SHORT).show()
+
+                    isSuccessLogin = true
+                    break
                 }
-                else
-                {
-                    Toast.makeText(this, "Failed", Toast.LENGTH_SHORT).show()
-                }
+
+            }
+
+            if(isSuccessLogin)
+            {
+
+                var intent = Intent(this, ShoppingActivity::class.java)
+                intent.putExtra("username", username)
+
+
+                startActivity(intent)
+
+            }
+            else
+            {
+                Toast.makeText(this, "Login failed!", Toast.LENGTH_SHORT).show()
             }
         }
     }
