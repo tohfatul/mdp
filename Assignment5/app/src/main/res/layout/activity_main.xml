@@ -29,14 +29,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <RadioButton
+            android:id="@+id/radioBtnEast"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="East"/>
         <RadioButton
+            android:id="@+id/radioBtnWest"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="West"/>
         <RadioButton
+            android:id="@+id/radioBtnNorth"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="North"/>
@@ -54,14 +57,17 @@
         android:layout_height="wrap_content"
         android:text="Water molecule has____"/>
     <CheckBox
+        android:id="@+id/chkHydrogen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hydrogen"/>
     <CheckBox
+        android:id="@+id/chkOxygen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Oxygen"/>
     <CheckBox
+        android:id="@+id/chkNitrogen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Nitrogen"/>
@@ -70,10 +76,12 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"/>
     <Button
+        android:id="@+id/btnSubmit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Submit"/>
     <Button
+        android:id="@+id/btnReset"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
@@ -83,7 +91,6 @@
     <Space
         android:layout_width="match_parent"
         android:layout_height="40dp"/>
-
 
     <TextView
         android:layout_width="match_parent"
