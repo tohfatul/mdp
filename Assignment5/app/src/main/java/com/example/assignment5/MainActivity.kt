@@ -1,5 +1,6 @@
 package com.example.assignment5
 
+import android.content.Intent
 import android.icu.text.DateFormat
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
@@ -16,6 +17,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
 
         btnSubmit.setOnClickListener {
             var  score = 0;
@@ -63,6 +65,13 @@ class MainActivity : AppCompatActivity() {
             chkNitrogen.isChecked=false
 
 
+        }
+
+
+        txtGotoShopping.setOnClickListener{
+            var intent = Intent(this, ShoppingCategoryActivity::class.java)
+
+            startActivity(intent)
         }
     }
 }
