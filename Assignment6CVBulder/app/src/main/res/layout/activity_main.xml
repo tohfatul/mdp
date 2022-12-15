@@ -53,6 +53,7 @@
             android:text="Username (Required)"
             android:textSize="20sp"/>
         <EditText
+            android:id="@+id/edTxtUserName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"/>
@@ -66,8 +67,10 @@
             android:text="Password (Required)"
             android:textSize="20sp"/>
         <EditText
+            android:id="@+id/edTxtPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:inputType="textPassword"
             android:textSize="20sp"/>
         <TextView
             android:layout_width="match_parent"
@@ -88,6 +91,7 @@
 
 
         <Button
+            android:id="@+id/btnLogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 

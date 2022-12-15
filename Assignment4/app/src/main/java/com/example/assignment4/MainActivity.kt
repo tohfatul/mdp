@@ -27,11 +27,13 @@ class MainActivity : AppCompatActivity() {
             var passwordd = txtPassword.text.toString()
             var  isSuccessLogin = false
 
+            var userFirstName = "";
             for (user in users)
             {
                 if(username == user.username && passwordd == user.password)
                 {
 
+                    userFirstName = user.firstname;
                     isSuccessLogin = true
                     break
                 }
@@ -42,7 +44,7 @@ class MainActivity : AppCompatActivity() {
             {
 
                 var intent = Intent(this, ShoppingActivity::class.java)
-                intent.putExtra("username", "Welcome, " + username)
+                intent.putExtra("userFirstname", "Welcome, " + userFirstName)
 
 
                 startActivity(intent)
