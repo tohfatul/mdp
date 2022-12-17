@@ -10,4 +10,8 @@
     <string name="education2">\n\n<b>United International University</b>\nBsc in Computer Science and Eng.</string>
     <string name="certification1">\n\n<b>Microsoft Software Development Net</b>\nDotNet Core Certified Professional.</string>
     <string name="certification2">\n\n<b>Oracle Corporation</b>\nOracle Cloud Certified Associate.</string>
+    <string name="work1">\n\n<b>Software Development Manager</b>\nVideoBank\nNew Jersey, USA\nSeptember 12, 2023 - Present</string>
+    <string name="work2">\n\n<b>Lead Software Engineer</b>\nBiswas Software Tech\nDhaka, Bangladesh\nJanuary, 2012 - December 2020</string>
+    <string name="work3">\n\n<b>Consultant (Hospital Domain)</b>\nBangladesh Internet Press\nDhaka, Bangladesh\nJanuary, 2009 - December 2010</string>
+    <string name="work4">\n\n<b>Sr. Software Developer</b>\nSpeiil MACrosoft Ltd.\nDhaka, Bangladesh\nJune, 2005 - December 2008</string>
 </resources>
