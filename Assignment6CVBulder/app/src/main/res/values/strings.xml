@@ -3,7 +3,11 @@
     <string name="forgotPassword"><u>Forgot Password?</u></string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="careerObjective"><b>Career Objective:</b> \n\nEfficient Full Stack Developer with more than 15 years of professional IT experience including latest 10 years of experience leading development of complex projects to strengthen software solutions for client. </string>
-    <string name="careerNote"><b>Career Note:</b> \n\nCompleted on-campus studies and currently taking distance education courses to complete a Masters Degree in Computer Science (Available for full-time, W-2 employment).</string>
-
+    <string name="careerObjective"><b>Career Objective</b>\n\nMy career objective is to work in an organization where sincerity, talent and creativity gets the highest priority and with an urge to strive for a notion of constructive development.</string>
+    <string name="careerNote"><b>Career Note:</b>\n\nCompleted on-campus studies and currently taking distance education courses to complete a Masters Degree in Computer Science (Available for full-time, W-2 employment).</string>
+    <string name="aboutMe"><b>About Me:</b>\n\nEfficient Full Stack Developer with more than 15 years of professional IT experience including latest 10 years of experience leading development of complex projects to strengthen software solutions.</string>
+    <string name="education">\n\n<b>Maharishi International University</b>\nMS in Computer Science</string>
+    <string name="education2">\n\n<b>United International University</b>\nBsc in Computer Science and Eng.</string>
+    <string name="certification1">\n\n<b>Microsoft Software Development Net</b>\nDotNet Core Certified Professional.</string>
+    <string name="certification2">\n\n<b>Oracle Corporation</b>\nOracle Cloud Certified Associate.</string>
 </resources>
