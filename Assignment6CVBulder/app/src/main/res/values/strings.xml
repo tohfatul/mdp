@@ -3,4 +3,7 @@
     <string name="forgotPassword"><u>Forgot Password?</u></string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="careerObjective"><b>Career Objective:</b> \n\nEfficient Full Stack Developer with more than 15 years of professional IT experience including latest 10 years of experience leading development of complex projects to strengthen software solutions for client. </string>
+    <string name="careerNote"><b>Career Note:</b> \n\nCompleted on-campus studies and currently taking distance education courses to complete a Masters Degree in Computer Science (Available for full-time, W-2 employment).</string>
+
 </resources>

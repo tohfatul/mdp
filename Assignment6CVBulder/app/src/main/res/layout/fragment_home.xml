@@ -3,12 +3,97 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".HomeFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="250dp"
+        android:src="@drawable/bg"
+        android:scaleType="centerCrop"
+        android:alpha="0.3"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/me"
+
+        tools:ignore="MissingClass" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="250dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tohfatul Islam"
+            android:layout_gravity="right"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Software Engineer"
+            android:layout_gravity="right"
+            android:textSize="20sp"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            app:cardBackgroundColor="#FAF9F6">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/careerObjective"
+                android:textSize="15dp"
+                android:layout_gravity="center_vertical|end"
+                android:layout_margin="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            android:padding="10dp"
+            android:layout_marginBottom="15dp"
+            app:cardBackgroundColor="#FAF9F6">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/careerNote"
+                android:textSize="15dp"
+                android:layout_gravity="center_vertical|end"
+                android:layout_margin="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+
+
+
 
 </FrameLayout>
